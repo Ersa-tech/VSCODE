@@ -23,9 +23,15 @@ body {
   }
 }
 
+.sc-textdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sc-textinput {
   width: 35%;
   border: none;
   border-radius: 10px;
   padding: 30px;
+  font-family: 'F';
 }
