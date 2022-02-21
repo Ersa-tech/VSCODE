@@ -23,12 +23,18 @@ body {
   }
 }
 
+.main-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
 .sc-textdiv {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;
+  color: black;
 }
 .sc-textinput {
   width: 40%;
@@ -38,7 +44,36 @@ body {
   font-family: 'Fjalla One', sans-serif;
   font-size: larger;
   outline: none;
+  color:rgb(240, 81, 37);
   box-shadow: rgb(0 0 0 / 20%) 1px 1px 3px;
+}
+
+.sc-textinput::placeholder {
+  color:rgba(240, 81, 37, 1);
+}
+
+.sc-textinput:focus::-webkit-input-placeholder {
+  transition: opacity .5s ease-out;
+  opacity: 0.4;
+}
+
+.download-button button {
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color:rgb(240, 81, 37);
+  background-color: white;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  cursor: pointer;
 }
 
 .footer {
