@@ -1,0 +1,55 @@
+/* not working, not sure why - expirement with svg element - use jpeg file as background as last resort, make it lightweight*/
+#rectangle {
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+  /* not working, not sure why expirement with svg element - use jpeg file as background as last resort, make it lightweight */
+
+.box {
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 5px;
+   font-family: sans-serif;
+   text-align: center;
+   line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   max-width: 50%;
+   max-height: 50%;
+   padding: 20px 40px;
+ }
+
+ /* This hides the scrollbar */
+ ::-webkit-scrollbar {
+   display:none
+ }
+/* This hides the scrollbar */
+
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+ }
+ 
+ body {
+   background-image: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(255,136,0,1) 50%, rgba(19,19,19,1) 100%);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ 
+ .container {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+ }
+
+ .
+
+
+
+  
+
