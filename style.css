@@ -29,9 +29,11 @@ body {
   justify-content: center;
 }
 .sc-textinput {
-  width: 35%;
+  width: 40%;
   border: none;
   border-radius: 10px;
   padding: 30px;
   font-family: 'Fjalla One', sans-serif;
+  font-size: larger;
+  outline: none;
 }
