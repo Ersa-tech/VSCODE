@@ -18,3 +18,9 @@ body {
   }
 }
 
+.sc-textinput {
+  width: 35%;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+}
