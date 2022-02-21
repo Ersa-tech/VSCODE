@@ -27,6 +27,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  min-height: 100vh;
 }
 .sc-textinput {
   width: 40%;
@@ -36,4 +38,23 @@ body {
   font-family: 'Fjalla One', sans-serif;
   font-size: larger;
   outline: none;
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 3px;
+}
+
+.footer {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+a {
+  color: white;
 }
