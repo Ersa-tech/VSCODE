@@ -50,6 +50,7 @@ body {
 
 .sc-textinput::placeholder {
   color:rgba(240, 81, 37, 1);
+  transition: ease-out 0.3s;
 }
 
 .sc-textinput:focus::-webkit-input-placeholder {
