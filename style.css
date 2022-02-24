@@ -59,7 +59,7 @@ body {
 }
 
 .download-button button {
-  width: 40%;
+  width: 40vw;
   border: none;
   border-radius: 10px;
   padding: 15px;
@@ -67,8 +67,12 @@ body {
   font-size: 24px;
   color:rgb(240, 81, 37);
   background-color: white;
+  transition: ease-in-out .7s;
 }
-
+.download-button button:hover {
+  color: black;
+  box-shadow: inset 45vw 0 0 0 rgb(255, 187, 0);
+}
 button {
   display: block;
   margin-left: auto;
